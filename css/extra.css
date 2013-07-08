@@ -25,3 +25,8 @@ h2, h3 {
   line-height: 26px;
   margin: 0;
   font-weight: normal; }
+
+a, a:hover, a:visited {
+  color: #394d54;
+  margin-top: 60px;
+  display: block; }
