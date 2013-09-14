@@ -25,6 +25,14 @@ strong {
 
 .row-fluid {
   margin-bottom: 40px; }
+  .row-fluid.mail {
+    margin-bottom: 0; }
+  .row-fluid.social {
+    font-size: 16px; }
+    .row-fluid.social a, .row-fluid.social a:hover {
+      text-decoration: none; }
+      .row-fluid.social a:first-child, .row-fluid.social a:hover:first-child {
+        margin-right: 5px; }
 
 .first {
   margin-top: 140px;
