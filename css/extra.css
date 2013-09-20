@@ -28,11 +28,17 @@ strong {
   .row-fluid.mail {
     margin-bottom: 0; }
   .row-fluid.social {
+    margin-bottom: 0;
     font-size: 16px; }
     .row-fluid.social a, .row-fluid.social a:hover {
       text-decoration: none; }
       .row-fluid.social a:first-child, .row-fluid.social a:hover:first-child {
         margin-right: 5px; }
+  .row-fluid.links li {
+    padding-left: 1px;
+    padding-right: 1px; }
+    .row-fluid.links li a {
+      text-decoration: underline; }
 
 .first {
   margin-top: 140px;
