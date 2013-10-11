@@ -1,7 +1,58 @@
+/* Flatten das boostrap */
+.well, .navbar-inner, .popover, .btn, .tooltip, input, select, textarea, pre, .progress, .modal, .add-on, .alert, .table-bordered, .nav > .active > a, .dropdown-menu, .tooltip-inner, .badge, .label, .img-polaroid {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  -webkit-border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+  border-radius: 0px !important;
+  border-collapse: collapse !important;
+  background-image: none !important; }
+
 body {
   background-color: #f4f4f4;
   font-family: "Droid Sans", sans-serif;
   color: #394d54; }
+
+.navbar a.brand {
+  font-family: "Cabin Condensed", sans-serif;
+  color: #129bca;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 700;
+  display: block;
+  float: left;
+  margin-left: -20px;
+  padding: 10px 20px;
+  text-shadow: 0 1px 0 #e7e7e7; }
+  .navbar a.brand:hover {
+    color: #24b8eb; }
+  .navbar a.brand .suffix {
+    font-size: 20px;
+    margin-left: -5px; }
+.navbar .avatar {
+  margin-right: 10px; }
+.navbar .icon-sort-down {
+  vertical-align: 15%; }
+
+.navbar .nav > li > a {
+  line-height: 35px;
+  padding: 10px 10px;
+  color: #777777;
+  float: none;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #e7e7e7; }
+
+.navbar .nav > li > span {
+  line-height: 35px;
+  padding: 10px 0;
+  display: block; }
+
+.navbar-inner {
+  background-color: #e7e7e7;
+  background-image: linear-gradient(to bottom, #e7e7e7, #e7e7e7);
+  background-repeat: repeat-x;
+  min-height: 40px; }
 
 .tal {
   text-align: left; }
@@ -72,4 +123,6 @@ a, a:hover, a:visited {
     margin: 0 auto; }
   #mc_embed_signup input.button {
     margin: 0 auto;
-    margin-top: 7px; }
+    margin-top: 7px;
+    min-width: 58%;
+    width: 58%; }
